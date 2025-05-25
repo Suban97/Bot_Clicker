@@ -1,19 +1,50 @@
-# Bot_Clicker
-un simple bot d'automatisation d'un jeu nommer "Cookie Clicker" parmis tant d'autres.
+# Bot Clicker
+
+Un simple bot d'automatisation pour le jeu "Cookie Clicker".
+
+## Description
+
+Ce projet est un bot développé en Python qui automatise le clic sur le cookie principal dans le jeu Cookie Clicker. Il a été conçu pour être simple d'utilisation et facile à installer.
+
+## Fonctionnalités
+
+- Automatisation du clic sur le cookie principal
+
+## Installation
+
+1. **Cloner le dépôt**
+   ```bash
+   git clone https://github.com/Suban97/Bot_Clicker.git
+   cd Bot_Clicker
+   ```
+
+2. **Installer les dépendances**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Utilisation
+
+Lance le script principal pour démarrer le bot :
+```bash
+python bot_clicker.py
+```
 
 
-Ce programme s'exécute dans le fichier main, il lancera chrome sur la page de Cookie clicker.
-Ensuite il analysera l'écran jusqu'à detecter le cookie et clickera en son centre toute les 0,03 secondes
+## Contribution
 
+Les contributions sont les bienvenues !  
+Ouvre une issue ou une pull request si tu souhaites proposer une amélioration ou signaler un bug.
 
-Durant l'exécution du programme, la souris sera occupé, et se placera automatiquement sur le cookie et cela bloquera l'utilisation de l'ordinateur.
-Pour cela j'ai attribué à la touche "MAJ + Q" l'arrêt du programme, la touche "MAJ + W" une pause de 30 secondes qui peut permettre de dépenser les cookies ainsi que la touche "MAJ+ X" pour afficher une petite fenêtre qui affiche les touches utiles. 
+## Auteur
 
+Créé par **Suban97**.
 
+## Licence
 
-N'hesiter pas a me faire des commentaire et à me donner des conseils, je cherche à m'améliorer.
+Ce projet est sous licence MIT.  
+Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
+---
 
-
-MIT License
-Copyright (c) 2025 Suban9
+*Bon jeu et bonne automatisation !*
