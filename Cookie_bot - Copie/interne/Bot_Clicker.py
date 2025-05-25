@@ -1,9 +1,8 @@
 import pyautogui, keyboard, threading, subprocess, time
-
-
+import os, webbrowser
 
 # 📸 Chemin vers l'image du cookie
-Cookie = "interne/ressources/Cookie.png"
+Cookie = os.path.join("interne", "ressources", "Cookie.png")
 
 # 🧪 Debug - peut être désactivé après test
 print(f"[DEBUG] Cookie path: {Cookie}")
@@ -13,7 +12,7 @@ def start_bot():
 
     # 🌐 Lance Cookie Clicker
     url = "https://orteil.dashnet.org/cookieclicker/"
-    subprocess.Popen(["C:/Program Files/Google/Chrome/Application/chrome.exe", url])
+    webbrowser.open(url)
 
     pause = False
 
