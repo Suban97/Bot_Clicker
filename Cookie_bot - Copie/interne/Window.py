@@ -35,7 +35,7 @@ def Win():
 
     def detection():
         while True:
-            keyboard.wait("Maj+x")# Attend que "Maj + M" soit pressé
+            keyboard.wait("Maj+x")# Attend que "Maj + x" soit pressé
             window.after(0, toggle_window)  # Demande au thread principal de modifier l'UI
 
     def toggle_window():
