@@ -12,3 +12,8 @@ Pour cela j'ai attribué à la touche "MAJ + Q" l'arrêt du programme, la touche
 
 
 N'hesiter pas a me faire des commentaire et à me donner des conseils, je cherche à m'améliorer.
+
+
+
+MIT License
+Copyright (c) 2025 Suban9
