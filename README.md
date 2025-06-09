@@ -2,15 +2,15 @@
 
 Un simple bot d'automatisation pour le jeu "Cookie Clicker".
 
-## Description
+## 📝 Description
 
 Ce projet est un bot développé en Python qui automatise le clic sur le cookie principal dans le jeu Cookie Clicker. Il a été conçu pour être simple d'utilisation et facile à installer.
 
-## Fonctionnalités
+## 🚀 Fonctionnalités
 
 - Automatisation du clic sur le cookie principal
 
-## Installation
+## 🛠 Installation
 
 1. **Cloner le dépôt**
    ```bash
@@ -23,7 +23,7 @@ Ce projet est un bot développé en Python qui automatise le clic sur le cookie 
    pip install -r requirements.txt
    ```
 
-## Utilisation
+## 🎮 Utilisation
 
 Lance le script principal pour démarrer le bot :
 ```bash
@@ -31,16 +31,12 @@ python bot_clicker.py
 ```
 
 
-## Contribution
+## 🤝 Contribution
 
 Les contributions sont les bienvenues !  
 Ouvre une issue ou une pull request si tu souhaites proposer une amélioration ou signaler un bug.
 
-## Auteur
-
-Créé par **Suban97**.
-
-## Licence
+## 📜 Licence
 
 Ce projet est sous licence MIT.  
 Voir le fichier [LICENSE](LICENSE) pour plus de détails.
