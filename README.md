@@ -30,6 +30,9 @@ Lance le script principal pour démarrer le bot :
 python bot_clicker.py
 ```
 
+Vous avez des commandes afin de contrôler le bot,
+ils sont affichés sur page tkinter lorsque vous maintenez MAJ+x.
+
 
 ## 🤝 Contribution
 
