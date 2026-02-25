@@ -26,11 +26,7 @@ def Win():
 
     # Ajouter le texte
     Label_title = tk.Label(lf, wraplength=350, text="Commandes disponibles", font=("Arial", 30, "bold"))
-<<<<<<< HEAD
-    Label_commandes = tk.Label(lf, wraplength=350, text="\nAfficher et masquer cette page: Maj+X \n Activer et désactiver la pause : Maj+Q \nStopper le programme : Maj+W", anchor="w", justify="left", width=30, font=('Arial', 20))
-=======
     Label_commandes = tk.Label(lf, wraplength=350, text="\nAfficher et masquer cette page: Maj+X \n Activer et désactiver la pause : +Q \nStopper le programme : Maj+W", anchor="w", justify="left", width=30, font=('Arial', 20))
->>>>>>> 64cbfa5 (Fix threading issues and improve bot stability)
 
 
     Label_title.pack(expand=True, fill='both')
