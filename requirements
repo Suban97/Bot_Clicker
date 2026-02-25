@@ -1,0 +1,13 @@
+pyautogui
+keyboard
+<<<<<<< HEAD
+=======
+tkinter
+threading
+time
+webbrowser
+os
+sys
+pillow
+opencv-python
+>>>>>>> 64cbfa5 (Fix threading issues and improve bot stability)
