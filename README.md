@@ -69,8 +69,7 @@ Arborescence principale (racine du dépôt) :
 
 - Détection du cookie :
   - Si la détection du cookie ne s'effectue pas automatiquement après le chargement de la page, essaie de dézoomer la page (Ctrl + - / Cmd + -) ; cela résout fréquemment les problèmes de repérage liés à l'échelle d'affichage.
-  - Ce comportement est lié à la méthode actuelle de détection par image (sensibilité au zoom / DPI) ; une amélioration est prévue pour rendre la détection plus robuste (calibration, sélection de zone, détection par position plutôt que seule image).
+  - Ce comportement est lié à la méthode actuelle de détection par image (sensibilité au zoom / DPI) ; une amélioration est prévue pour rendre la détection plus robuste.
 
 ---
 
-*README rédigé en style professionnel et centré sur l'utilisateur.*
