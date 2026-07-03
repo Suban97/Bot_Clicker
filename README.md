@@ -52,18 +52,16 @@ Le bot s'exécute en tâche de fond et la fenêtre d'interface s'ouvre. Appuyez 
 
 ## Structure du package
 
-Arborescence principale (racine du dépôt) :
-
-- README.md — documentation utilisateur (ce fichier)
-- main.py — point d'entrée : démarre le thread du bot et lance l'interface
-- requirements / requirements.txt — liste des dépendances pip requises
-- interne/ — package d'implémentation
-  - interne/Bot_Clicker.py — logique du bot
-    - start_bot() : ouvre le navigateur sur Cookie Clicker, localise l'image `interne/ressources/Cookie.png` et effectue des clics au centre de la zone détectée ; gère la pause et l'arrêt
-  - interne/Window.py — interface utilisateur (tkinter)
-    - Win() : crée la fenêtre, affiche les commandes et démarre un thread de détection clavier pour MAJ + X
-  - interne/ressources/Cookie.png — image utilisée par pyautogui pour la détection
-  - interne/__pycache__/ — caches Python (ignorés pour la distribution)
+Bot_Clicker/
+│
+├── main.py
+├── README.md
+├── requirements.txt
+└── interne/
+    ├── Bot_Clicker.py
+    ├── Window.py
+        └── ressources/
+            └── Cookie.png
 
 ## Remarques et limitations connues
 
