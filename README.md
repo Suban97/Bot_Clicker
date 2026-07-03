@@ -33,6 +33,21 @@ python bot_clicker.py
 Vous avez des commandes à votre disposition afin de contrôler le bot,
 ils s'affichent sur une page tkinter lorsque vous maintenez MAJ+x.
 
+## ⚠️ Remarque — Détection du cookie
+
+Si la détection du cookie ne s'effectue pas automatiquement à la fin du chargement de la page, n'hésite pas à dézoomer la page (Ctrl + - / Cmd + -). C'est un défaut connu dans la détection que je compte corriger prochainement.
+
+## 📁 Structure du projet
+
+Voici la structure principale du dépôt :
+
+- README.md
+- LICENSE
+- main.py
+- requirements
+- interne/ (dossier interne)
+
+Si tu veux que j'ajoute une arborescence plus détaillée (afficher le contenu du dossier `interne/`, par exemple), dis-le et je l'ajoute.
 
 ## 🤝 Contribution
 
